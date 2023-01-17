@@ -28,7 +28,7 @@
 
   </head>
   <body>
-    <a-scene mindar-image="imageTargetSrc: ./targets.mind;" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+    <a-scene mindar-image="imageTargetSrc: ./targets.mind; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
         <img id="card" src="./targets.png"/>
         <!--<a-asset-item id="avatarModel" src="./pipe.gltf"></a-asset-item>-->
@@ -48,5 +48,4 @@
     </a-scene>
   </body>
 </html>
-
 
